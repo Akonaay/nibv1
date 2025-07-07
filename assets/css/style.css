@@ -1,0 +1,111 @@
+.banner-info h5{
+    font-weight: 700;
+}
+
+.banner-info p{
+    font-weight: 500;
+    color: white;
+}
+
+.nav-item .nav-link {
+    font-weight: 600 !important;
+    font-size: medium;
+}
+
+.icon-list-item-gd .icon-gd i{
+    font-size: 24px;
+    color: #2E80BA;
+    margin-bottom: 15px;
+}
+
+
+.icon-list-item-gd a{
+    font-size: 14px;
+    color: #2E80BA;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.icon-list-item-gd a:hover{
+    font-weight: 600;
+}
+
+.icon-list-item-gd a i{
+    padding-left: 5px;
+    font-size: small;
+}
+
+.btn-nib{
+    padding: 10px 20px;
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 600;
+    transition: 0.3s ease-in;
+    background: transparent;
+    color: #2E80BA;
+    border: 1px solid #2E80BA;
+    border-radius: 5px;
+   
+}
+
+.btn-nib:hover{
+    border: 1px solid #2E80BA;
+    background: #2E80BA;
+    color: #fff;
+   
+}
+
+.stats_info h3{
+    color: #2E80BA;
+}
+
+.icon-list-item-gd:hover{
+    transition: 0.3s ease-in;
+    box-shadow: 10px 0 10px 10px #2e80ba4b;
+	border-radius: 10px;
+	padding: 15px 15px;
+}
+
+.toggle-bg{
+    background: #2E80BA !important;
+}
+
+/* .whatsapp  */
+#icon-bar {
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    left: 20px;
+    z-index: 999;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: #fff;
+    width: 46px;
+    height: 46px;
+    background: #2E80BA;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -o-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    padding: 0;
+}
+
+#icon-bar i{
+    position: fixed;
+    bottom: 10px;
+    right: 0;
+    left: 33px;
+    z-index: 999;
+    font-size: 20px;
+    width: 46px;
+    height: 46px;
+  
+}
+
+
+#icon-bar:hover {
+    opacity: .8;
+}
