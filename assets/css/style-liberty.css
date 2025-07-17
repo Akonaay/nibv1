@@ -2262,7 +2262,7 @@ progress {
 .form-control:focus {
     color: #212529;
     background-color: #fff;
-    border: 1px solid var(--primary-color);
+    border: 1px solid #2E80BA;
     outline: 0;
     box-shadow: none;
 }
@@ -20589,7 +20589,7 @@ p.para-counter {
 /*--/w3l-services3--*/
 
 .w3l-services3 .new-block {
-    background: url(../images/banner2.jpg) no-repeat center;
+    background: url(../images/service-01.jpg) no-repeat center;
     background-size: cover;
     -webkit-background-size: cover;
     -o-background-size: cover;
@@ -20727,7 +20727,7 @@ p.para-counter {
 /*--//w3l-passion-mid-grids--*/
 /*--Our--Team--*/
 .w3l-team {
-    background: var(--bg-grey);
+    /* background: var(--bg-grey); */
 }
 
 .team-img img {
@@ -20823,7 +20823,7 @@ p.para-counter {
 /*--//Our--Team--*/
 /*--/inner-banner--*/
 .inner-banner {
-    background: url(../images/banner2.jpg) no-repeat center;
+    background: url(../images/about.jpg) no-repeat center;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -22825,7 +22825,7 @@ ul.twitter-feed a:hover {
 /*--/foorer--*/
 
 .w3l-footer-29-main .footer-29 {
-    background: var(--footer-bg);
+    background:#2E80BA;
 }
 
 .w3l-footer-29-main h6.footer-title-29 {

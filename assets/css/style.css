@@ -23,12 +23,11 @@
     font-size: 14px;
     color: #2E80BA;
     display: inline-block;
-    margin-top: 10px;
+    margin-top: 20px;
+    font-weight: 700;
 }
 
-.icon-list-item-gd a:hover{
-    font-weight: 600;
-}
+
 
 .icon-list-item-gd a i{
     padding-left: 5px;
@@ -36,7 +35,7 @@
 }
 
 .btn-nib{
-    padding: 10px 20px;
+    padding: 15px 20px;
     font-size: 16px;
     line-height: 16px;
     font-weight: 600;
@@ -59,11 +58,18 @@
     color: #2E80BA;
 }
 
-.icon-list-item-gd:hover{
-    transition: 0.3s ease-in;
-    box-shadow: 10px 0 10px 10px #2e80ba4b;
+.icon-list-item-gd{
+    /* transition: 0.3s ease-in; */
+    box-shadow: 8px 0 10px 5px #2e80ba4b;
 	border-radius: 10px;
-	padding: 15px 15px;
+	padding: 15px 17px;
+    text-align: center;
+}
+
+
+.icon-list-item-gd::hover{
+    transition: 0.3s ease-in-out;
+    
 }
 
 .toggle-bg{
@@ -108,4 +114,53 @@
 
 #icon-bar:hover {
     opacity: .8;
+}
+
+.stat-us{
+    margin-bottom: 15px;
+    transition: 0.3s ease-in;
+    box-shadow: 8px 0 10px 5px #2e80ba4b;
+	border-radius: 10px;
+	padding: 15px 17px;
+}
+
+.icon-list-item-gd .icon-gd{
+    margin-bottom: 12px;
+    margin-top: 10px;
+   
+}
+
+.icon-list-item-gd .icon-gd i{
+   
+    font-size: 2rem;
+}
+
+.icon-list-item-gd .icon-inf h5{
+    margin-bottom: 15px;
+}
+
+
+
+.w3l-passion-mid-sec-1{
+    background-color: #cccfd19a !important;
+}
+
+.w3l-passion-mid-sec-2{
+    background-color: rgba(255, 255, 255, 0.459) !important;
+}
+
+.obj-col div{
+    margin-bottom: 10px;
+}
+
+.cont-left span{
+    color: #2E80BA;
+}
+
+.form-control:focus {
+    color: #212529;
+    background-color: #fff;
+    border: 1px solid #2E80BA !important;
+    outline: 0;
+    box-shadow: none;
 }
