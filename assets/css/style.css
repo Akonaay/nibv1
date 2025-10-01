@@ -164,3 +164,22 @@
     outline: 0;
     box-shadow: none;
 }
+
+.benefit-info{
+    padding: 30px 10px;
+    border: 1px solid #2E80BA !important;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.benefit-info i{
+    font-size: 28px;
+    color: #2eba68;
+    margin-bottom: 15px;
+}
+
+
+.benefit-info h6{
+    color: #2E80BA;
+    font-weight: 600;
+}
